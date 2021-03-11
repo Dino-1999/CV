@@ -3,11 +3,12 @@ body{
 	position: relative;
 }
 hr {
+	align-content:  center;
 	position: relative;
 margin-top: 3.125em;
 color:grey;
 border-style: dotted none none;
-width: 5%; 
+width: 3vmax; 
 height: 0.625em;
 }
 h1 {position: relative;
@@ -66,9 +67,9 @@ p{
 	
 }
 .right {
-	position: relative;
+   position: relative;
    width: 50%;
-   margin-left: 1.5625em;
+   padding-left: 3.2%;
 }
 .list{
 	width:50%;
@@ -76,7 +77,7 @@ p{
 }
 .left{
 	position: relative;
-	margin-left: 48%;
+	margin-left: 45%; 
 	width: 50%;
 }
 .container {
@@ -88,12 +89,14 @@ p{
 	list-style: none;
 	
 }
-
+.DM{
+	width: 1.2vmax;
+}
 .DM:hover{
 	transform: scale(1.1);
 }
 #profpic{
-	height: 12.5em;
+	height: 20vmax;
 	transition: 0.5s;
 }
 #profpic:hover
@@ -107,7 +110,7 @@ p{
 	list-style-type: circle;
 }
 #certif{
-	height: 12.5em;
+	height: 10.3vmax;
 	transition: 2s;
 }
 #certif:hover{
