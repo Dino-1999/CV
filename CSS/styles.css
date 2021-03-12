@@ -23,7 +23,7 @@ margin-left: 40%;
 }
 table {
 
-	width: 1vw;	
+	width: 100%;	
 	font-size: 1vw;
 }
 table th{
@@ -32,16 +32,11 @@ table th{
 table td{
 	text-align: center;
 }
-ul li{
-	width: 17vw;
-	position: relative;
-	font-size: 1vw;
 
-}
 h2
 {  
     position: relative; 
-	width: 100%;
+	width: 99%;
 	border-radius: 10px;
 	border-style: ridge;
 	border-top-color: #d3e0ea;
@@ -66,23 +61,38 @@ p{
 	width: 25vw;
 	position: relative;
 	font-size: 1vw;
+	max-height: 30vh;
+	max-width: 30vw;
 	
+}
+ul li{
+	position: relative;
+	float: left;
+	min-width: 60%;
+	position: relative;
+	font-size: 1vw;
+	max-height: 35vh;
+	max-width: 30vw;
 }
 #imgID{
     text-align: center;
 }
 .right {
-   float: left;
+	border:2px;
+	border-style: solid;
    position: relative;
-   min-height: 200px;
-   max-width: 25vw;
-   padding-left: 3.4%;
+   max-height: 40vw;
+   min-width: 25vw;
+   margin-right: 45%;
 }
 .left{
-	flex: 1;
+	border:2px;
+	border-style: solid;
 	position: relative;
-	margin-left: 45%; 
-	width: 25vw;
+	margin-left: 45%;
+	margin-right: 10%; 
+	min-width: 25vw;
+    max-height: 45vh;
 	text-align: left;
 }
 .container {
@@ -92,9 +102,14 @@ p{
 }
 .noStyleList{
 	position: relative;
+	float: left;
 	list-style-type: none;
+	min-width: 60%;
+	position: relative;
+	justify-content: flex-end;
 	font-size: 1vw;
-	size: 1vw;
+	max-height: 35vh;
+	max-width: 30vw;
 }
 .DM{
 	width: 1vw;
@@ -113,9 +128,13 @@ p{
 
 }
 #ostalo{
+	width: 50%;
 	position: relative;
-	text-align: left;
-
+	justify-content: flex-end;
+	font-size: 1vw;
+	max-height: 30vh;
+	max-width: 30vw;
+	margin-right: 20%;
 	list-style-type: circle;
 }
 #certif{
