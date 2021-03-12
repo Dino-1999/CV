@@ -22,10 +22,9 @@ width: 20%;
 margin-left: 40%;
 }
 table {
-	width:1vw;
-	font-size: 1vw;
-	text-align: left;
 
+	width: 1vw;	
+	font-size: 1vw;
 }
 table th{
 	text-align: center;
@@ -34,7 +33,7 @@ table td{
 	text-align: center;
 }
 ul li{
-	text-align:left;
+	width: 17vw;
 	position: relative;
 	font-size: 1vw;
 
@@ -63,9 +62,9 @@ text-align: center;
  	transition: 0.5s;
  	box-shadow: 5px 5px 10px #252525;
  }
-p{
+p{ 
+	width: 25vw;
 	position: relative;
-	text-align: left;
 	font-size: 1vw;
 	
 }
@@ -75,8 +74,8 @@ p{
 .right {
    float: left;
    position: relative;
-   
-   width: 25vw;
+   min-height: 200px;
+   max-width: 25vw;
    padding-left: 3.4%;
 }
 .left{
