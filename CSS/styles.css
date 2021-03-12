@@ -52,9 +52,6 @@ color:#00af91;
 font-size: 2vw;
 text-align: center;
 }
-li{
-   font-size: 1.2vw;
-}
  h2:hover{
  	transform: scale(1.1);
  	transition: 0.5s;
@@ -89,13 +86,27 @@ p{
     display: grid;
     grid-template-columns: 50% 50%;
 }
+.right ul li{
+	width: 99%;
+	font-size: 1vmax;
+	max-height: 30vh;
+	max-width: 30vw;
+	text-align: left;
+}
+.left ul li{
+	width: 99%;
+	font-size: 1vmax;
+	max-height: 30vh;
+	max-width: 30vw;
+	text-align: left;
+}
 .right.noStyleList{
 	list-style-type: none;
     text-align: left;
 	width: 99%;
 	font-size: 1vmax;
 	max-height: 30vh;
-	max-width: 30vw
+	max-width: 30vw;
 }
 .left.noStyleList{
 	list-style-type: none;
