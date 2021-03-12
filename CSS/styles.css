@@ -15,7 +15,7 @@ h1 {
 	align-self: center;
 background:#00af91;
 color:white;
-font-size: 2vw;
+font-size: 4vmin;
 border-radius: 0.625em;
 text-align: center;
 width: 20%;
@@ -24,7 +24,7 @@ margin-left: 40%;
 table {
 
 	width: 100%;	
-	font-size: 1vw;
+	font-size: 1.5vmin;
 }
 table th{
 	text-align: center;
@@ -49,7 +49,7 @@ h2
 	border-right-width: 0.2vw;
 	transition: 1s;
 color:#00af91;
-font-size: 1vw;
+font-size: 3.1vmin;
 text-align: center;
 }
  h2:hover{
@@ -60,16 +60,17 @@ text-align: center;
 p{ 
 	width: 99%;
 	position: relative;
-	font-size: 1.2rem;
+	font-size:  1.5vmin;
 	max-height: 30vh;
 	max-width: 30vw;
+
 	
 }
 ul li{
 	position: relative;
 	min-width: 60%;
 	position: relative;
-	font-size: 1.2rem;
+	font-size: 1.5vmin;
 	max-height: 35vh;
 	max-width: 30vw;
 }
@@ -104,7 +105,7 @@ ul li{
 	list-style-type: none;
 	min-width: 60%;
 	position: relative;
-	font-size: 1.2rem;
+	font-size: 1.5vmin;
 	max-height: 35vh;
 	max-width: 30vw;
 }
@@ -128,7 +129,7 @@ ul li{
 	width: 50%;
 	position: relative;
 	justify-content: flex-end;
-	font-size: 1.2rem;
+	font-size: 1.5vmin;
 	max-height: 30vh;
 	max-width: 30vw;
 	margin-right: 20%;
