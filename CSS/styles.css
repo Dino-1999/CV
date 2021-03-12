@@ -21,8 +21,7 @@ text-align: center;
 width: 20%;
 margin-left: 40%;
 }
-#tbl{
-
+.right table{
 	width: 100%;	
 	font-size: 1vw;
 	text-align: center;
@@ -75,16 +74,27 @@ p{
 	margin-left: 32%;
 	text-align: left;
 }
-.left ul li{
+.left ul {
+
+    padding-left: 5px;
+    float: left;
 	width: 99%;
+	font-size: 1vw;
+	position: relative;
+
+}
+.right ul{
+	padding-left:10px;
+	text-align: left;
+	float: left;
 	font-size: 1vw;
 }
 .right ul li{
 	width: 99%;
-	font-size: 1vw;
 }
 .noStyleList{
 	list-style-type: none;
+	padding-left: 0px;
 }
 .container {
 	position: relative;
