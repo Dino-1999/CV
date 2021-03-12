@@ -8,22 +8,22 @@ hr {
 margin-top: 3.125em;
 color:grey;
 border-style: dotted none none;
-width: 3vmax; 
+width: 3.1vw; 
 height: 0.625em;
 }
 h1 {
 	align-self: center;
 background:#00af91;
 color:white;
-font-size: 2.1vmax;
+font-size: 2vw;
 border-radius: 0.625em;
 text-align: center;
 width: 20%;
 margin-left: 40%;
 }
 table {
-	width: 0.2vmin;
-	font-size: 1vmax;
+	
+	font-size: 1vw;
 	text-align: left;
 
 }
@@ -36,7 +36,7 @@ table td{
 ul{
 	position: relative;
 	text-align: left;
-	font-size: 1.2vmax;
+	font-size: 1vw;
 	
 
 }
@@ -56,7 +56,7 @@ h2
 	border-right-width: 3px;
 	transition: 1s;
 color:#00af91;
-font-size: 2vmax;
+font-size: 2vw;
 text-align: center;
 }
  h2:hover{
@@ -67,7 +67,7 @@ text-align: center;
 p{
 	position: relative;
 	text-align: left;
-	font-size: 1.2vmax;
+	font-size: 1vw;
 	
 }
 .listDiv{
@@ -97,7 +97,7 @@ p{
 	text-align: left;
 }
 .DM{
-	width: 1.2vmax;
+	width: 1vw;
 }
 .DM:hover{
 	transform: scale(1.1);
