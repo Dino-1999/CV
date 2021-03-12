@@ -78,10 +78,12 @@ p{
 
     padding-left: 5px;
     float: left;
-	width: 99%;
 	font-size: 1vw;
 	position: relative;
 
+}
+.left ul li{
+    width: 99%;
 }
 .right ul{
 	padding-left:10px;
