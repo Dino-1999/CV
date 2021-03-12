@@ -15,7 +15,7 @@ h1 {
 	align-self: center;
 background:#00af91;
 color:white;
-font-size: 4vmin;
+font-size: 2vw;
 border-radius: 0.625em;
 text-align: center;
 width: 20%;
@@ -24,7 +24,7 @@ margin-left: 40%;
 table {
 
 	width: 100%;	
-	font-size: 1.5vmin;
+	font-size: 1vw;
 }
 table th{
 	text-align: center;
@@ -49,7 +49,7 @@ h2
 	border-right-width: 0.2vw;
 	transition: 1s;
 color:#00af91;
-font-size: 3.1vmin;
+font-size: 2vw;
 text-align: center;
 }
  h2:hover{
@@ -60,17 +60,16 @@ text-align: center;
 p{ 
 	width: 99%;
 	position: relative;
-	font-size:  1.5vmin;
+	font-size: 1vmax;
 	max-height: 30vh;
 	max-width: 30vw;
-
 	
 }
 ul li{
 	position: relative;
 	min-width: 60%;
 	position: relative;
-	font-size: 1.5vmin;
+	font-size: 1vw;
 	max-height: 35vh;
 	max-width: 30vw;
 }
@@ -81,18 +80,16 @@ ul li{
 	border:2px;
 	border-style: solid;
    position: relative;
-   width: 40vmin;
-   height: auto;
-   margin-left: 9%;
+   min-width: 25vw;
+   margin-right: 45%;
 }
 .left{
 	border:2px;
 	border-style: solid;
 	position: relative;
-	margin-left: 50%;
-	width: 40vmin;
-    height: auto;
-	text-align: left;
+	margin-left: 45%;
+	margin-right: 10%; 
+	min-width: 25vw;
 }
 .container {
 	position: relative;
@@ -101,9 +98,14 @@ ul li{
 }
 .noStyleList{
 	position: relative;
+	float: left;
 	list-style-type: none;
+	min-width: 60%;
 	position: relative;
-	font-size: 1.5vmin;
+	justify-content: flex-end;
+	font-size: 1vw;
+	max-height: 35vh;
+	max-width: 30vw;
 }
 .DM{
 	width: 1vw;
@@ -124,7 +126,8 @@ ul li{
 #ostalo{
 	width: 50%;
 	position: relative;
-	font-size: 1.5vmin;
+	justify-content: flex-end;
+	font-size: 16px;
 	max-height: 30vh;
 	max-width: 30vw;
 	margin-right: 20%;
