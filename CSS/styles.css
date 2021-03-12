@@ -23,7 +23,7 @@ margin-left: 40%;
 }
 table {
 
-	width: 100%;	
+	width: 1vw;	
 	font-size: 1vw;
 }
 table th{
@@ -52,6 +52,9 @@ color:#00af91;
 font-size: 2vw;
 text-align: center;
 }
+li{
+   font-size: 1.2vw;
+}
  h2:hover{
  	transform: scale(1.1);
  	transition: 0.5s;
@@ -69,37 +72,37 @@ p{
     text-align: center;
 }
 .right {
-	border:2px;
-	border-style: solid;
    position: relative;
-   max-height: 25vw;
-   min-width: 25vw;
-   margin-right: 45%;
+   max-width: 25vw;
+   margin-left: 7%;
 }
 .left{
-	border:2px;
-	border-style: solid;
 	position: relative;
-	margin-left: 45%;
-	margin-right: 10%; 
-	min-width: 25vw;
-    max-height: 35vh;
+	width: 25vw;
+	margin-left: 32%;
 	text-align: left;
 }
 .container {
 	position: relative;
+	margin: 10%;
+	height: auto;
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.noStyleList{
-	position: relative;
-	float: left;
+.right.noStyleList{
 	list-style-type: none;
-	min-width: 60%;
-	position: relative;
-	justify-content: flex-end;
-	font-size: 1vw;
-	max-height: 35vh;
+    text-align: left;
+	width: 99%;
+	font-size: 1vmax;
+	max-height: 30vh;
+	max-width: 30vw
+}
+.left.noStyleList{
+	list-style-type: none;
+    text-align: left;
+	width: 99%;
+	font-size: 1vmax;
+	max-height: 30vh;
 	max-width: 30vw;
 }
 .DM{
@@ -121,7 +124,6 @@ p{
 #ostalo{
 	width: 50%;
 	position: relative;
-	justify-content: flex-end;
 	font-size: 1vw;
 	max-height: 30vh;
 	max-width: 30vw;
