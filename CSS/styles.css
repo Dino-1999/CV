@@ -33,11 +33,9 @@ table th{
 table td{
 	text-align: center;
 }
-ul{
+ul li{
 	position: relative;
-	text-align: left;
 	font-size: 1vw;
-	
 
 }
 h2
@@ -47,13 +45,13 @@ h2
 	border-radius: 10px;
 	border-style: ridge;
 	border-top-color: #d3e0ea;
-	border-top-width: 5px;
+	border-top-width: 0.2vw;
 	border-bottom-color: #d3e0ea;
-	border-bottom-width: 5px;
+	border-bottom-width: 0.2vw;
 	border-left-color: #252525;
-	border-left-width: 3px;
+	border-left-width: 0.2vw;
 	border-right-color: #252525;
-	border-right-width: 3px;
+	border-right-width: 0.2vw;
 	transition: 1s;
 color:#00af91;
 font-size: 2vw;
@@ -70,26 +68,22 @@ p{
 	font-size: 1vw;
 	
 }
-.listDiv{
-	justify-content:left;
-}
 #imgID{
     text-align: center;
 }
 .right {
-	flex:1;
+   float: left;
    position: relative;
-   width: 50%;
-   padding-left: 3.2%;
-   min-width: 100px;
+   min-height: 200px;
+   max-width: 50%;
+   padding-left: 3.4%;
 }
 .left{
 	flex: 1;
 	position: relative;
 	margin-left: 45%; 
-	width: 50%;
+	min-width: 50%;
 	text-align: left;
-	min-width: 100px;
 }
 .container {
 	position: relative;
@@ -97,8 +91,10 @@ p{
     grid-template-columns: 50% 50%;
 }
 .noStyleList{
+	position: relative;
 	list-style-type: none;
-	text-align: left;
+	font-size: 1vw;
+	size: 1vw;
 }
 .DM{
 	width: 1vw;
@@ -118,6 +114,8 @@ p{
 }
 #ostalo{
 	position: relative;
+	text-align: left;
+
 	list-style-type: circle;
 }
 #certif{
