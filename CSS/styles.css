@@ -21,8 +21,14 @@ text-align: center;
 width: 20%;
 margin-left: 40%;
 }
-.right table th td{
-	width: 100%;	
+.right table{
+	width: 99%;
+}
+.right th{	
+	font-size: 1vw;
+	text-align: center;
+}
+.right td{
 	font-size: 1vw;
 	text-align: center;
 }
@@ -134,5 +140,6 @@ p{
    transform: scale(9);
 }
 #discList{
+	width: 99%;
 	list-style-type: circle;
 }
