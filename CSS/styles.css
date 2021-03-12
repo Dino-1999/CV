@@ -34,6 +34,7 @@ table td{
 	text-align: center;
 }
 ul li{
+	text-align:left;
 	position: relative;
 	font-size: 1vw;
 
