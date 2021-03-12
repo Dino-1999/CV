@@ -11,25 +11,33 @@ border-style: dotted none none;
 width: 3vmax; 
 height: 0.625em;
 }
-h1 {position: relative;
-
+h1 {
+	align-self: center;
 background:#00af91;
 color:white;
 font-size: 2.1vmax;
-width: 20%;
-text-align: center;
 border-radius: 0.625em;
+text-align: center;
+width: 20%;
+margin-left: 40%;
 }
 table {
-	width: 0.3vmax;
-	font-size: 1.2vmax;
-	text-align: center;
+	width: 0.2vmin;
+	font-size: 1vmax;
+	text-align: left;
 
 }
-ul li{
+table th{
+	text-align: center;
+}
+table td{
+	text-align: center;
+}
+ul{
 	position: relative;
-	font-size: 1.2vmax;
 	text-align: left;
+	font-size: 1.2vmax;
+	
 
 }
 h2
@@ -56,29 +64,28 @@ text-align: center;
  	transition: 0.5s;
  	box-shadow: 5px 5px 10px #252525;
  }
- h4{
- 	position: relative;
- 	text-align: center;
- }
 p{
 	position: relative;
 	text-align: left;
 	font-size: 1.2vmax;
 	
 }
+.listDiv{
+	justify-content:left;
+}
+#imgID{
+    text-align: center;
+}
 .right {
    position: relative;
    width: 50%;
    padding-left: 3.2%;
 }
-.list{
-	width:50%;
-	font-size: 1.2vmax;
-}
 .left{
 	position: relative;
 	margin-left: 45%; 
 	width: 50%;
+	text-align: left;
 }
 .container {
 	position: relative;
@@ -86,8 +93,8 @@ p{
     grid-template-columns: 50% 50%;
 }
 .noStyleList{
-	list-style: none;
-	
+	list-style-type: none;
+	text-align: left;
 }
 .DM{
 	width: 1.2vmax;
