@@ -75,15 +75,15 @@ p{
 .right {
    float: left;
    position: relative;
-   min-height: 200px;
-   max-width: 50%;
+   
+   width: 25vw;
    padding-left: 3.4%;
 }
 .left{
 	flex: 1;
 	position: relative;
 	margin-left: 45%; 
-	min-width: 50%;
+	width: 25vw;
 	text-align: left;
 }
 .container {
