@@ -1,0 +1,129 @@
+body{
+	background: #eae3c8;
+	position: relative;
+}
+hr {
+	align-content:  center;
+	position: relative;
+margin-top: 3.125em;
+color:grey;
+border-style: dotted none none;
+width: 3.1vw; 
+height: 0.625em;
+}
+h1 {
+	align-self: center;
+background:#00af91;
+color:white;
+font-size: 2vw;
+border-radius: 0.625em;
+text-align: center;
+width: 20%;
+margin-left: 40%;
+}
+table {
+	
+	font-size: 1vw;
+	text-align: left;
+
+}
+table th{
+	text-align: center;
+}
+table td{
+	text-align: center;
+}
+ul{
+	position: relative;
+	text-align: left;
+	font-size: 1vw;
+	
+
+}
+h2
+{  
+    position: relative; 
+	width: 100%;
+	border-radius: 10px;
+	border-style: ridge;
+	border-top-color: #d3e0ea;
+	border-top-width: 5px;
+	border-bottom-color: #d3e0ea;
+	border-bottom-width: 5px;
+	border-left-color: #252525;
+	border-left-width: 3px;
+	border-right-color: #252525;
+	border-right-width: 3px;
+	transition: 1s;
+color:#00af91;
+font-size: 2vw;
+text-align: center;
+}
+ h2:hover{
+ 	transform: scale(1.1);
+ 	transition: 0.5s;
+ 	box-shadow: 5px 5px 10px #252525;
+ }
+p{
+	position: relative;
+	text-align: left;
+	font-size: 1vw;
+	
+}
+.listDiv{
+	justify-content:left;
+}
+#imgID{
+    text-align: center;
+}
+.right {
+	flex:1;
+   position: relative;
+   width: 50%;
+   padding-left: 3.2%;
+   min-width: 100px;
+}
+.left{
+	flex: 1;
+	position: relative;
+	margin-left: 45%; 
+	width: 50%;
+	text-align: left;
+	min-width: 100px;
+}
+.container {
+	position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.noStyleList{
+	list-style-type: none;
+	text-align: left;
+}
+.DM{
+	width: 1vw;
+}
+.DM:hover{
+	transform: scale(1.1);
+}
+#profpic{
+	height: 20vmax;
+	transition: 0.5s;
+}
+#profpic:hover
+{
+	position: relative;
+	transform: scale(1.3);
+
+}
+#ostalo{
+	position: relative;
+	list-style-type: circle;
+}
+#certif{
+	height: 10.3vmax;
+	transition: 2s;
+}
+#certif:hover{
+   transform: scale(9);
+}
