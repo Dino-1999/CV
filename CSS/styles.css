@@ -21,7 +21,7 @@ text-align: center;
 width: 20%;
 margin-left: 40%;
 }
-.right table{
+.right table th td{
 	width: 100%;	
 	font-size: 1vw;
 	text-align: center;
